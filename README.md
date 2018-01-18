@@ -50,7 +50,8 @@
 
 
 - ScreenShots
-<img src="images/Picka_main.png" width="150" hspace="2"><img src="images/Picka_detail.png" width="150" hspace="2"><img src="images/Picka_temp.png" width="150" hspace="2">
+
+<img src="images/Picka_main.png" width="150" hspace="2"> <img src="images/Picka_detail.png" width="150" hspace="2"> <img src="images/Picka_temp.png" width="150" hspace="2">
 
 ## [Vlogr](https://itunes.apple.com/kr/app/vlogr/id1179975615?mt=8)
 **일상을 전달하는 Vlog 소셜 네트워크**
