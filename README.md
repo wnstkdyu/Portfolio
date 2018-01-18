@@ -1,9 +1,7 @@
 # 유준상
 
 ### 개인정보
-- 93.06.22
 - Email: wnstkdyu@gmail.com
-- 휴대폰: 010-8890-7058
 - 블로그: https://medium.com/@Alpaca_iOSStudy
 
 ### 학력
