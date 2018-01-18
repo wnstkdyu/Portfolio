@@ -64,3 +64,7 @@
   4. 좋아요 화면을 누를 시 느리게 받아오는 문제를 cellDelegate 메소드인 willDisplay 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
   5. 온-오프라인을 고려하여 온, 오프라인 관계없이 UserDefaults를 이용해 로컬에 저장했다가 서버에 업로드 시 싱크를 맞춰줌.
   6. 둘러보기를 구현하여 로그인을 하지 않아도 편집을 할 수 있게끔 구현
+
+- ScreenShots
+
+<img src="images/Vlogr_select.jpg" width="150" hspace="2"> <img src="images/Vlogr_edit.jpg" width="150" hspace="2"> <img src="images/Vlogr_info.jpg" width="150" hspace="2"> <img src="images/Vlogr_timeline.jpg" width="150" hspace="2">
