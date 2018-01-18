@@ -55,7 +55,8 @@
 ## [Vlogr](https://itunes.apple.com/kr/app/vlogr/id1179975615?mt=8)
 **일상을 전달하는 Vlog 소셜 네트워크**
 - 주요 기술: Parse, AVAsset, CALayer
-- 수행 역할
+- 수행 역할: 개발
+- 구체적 기능 구현
   1. 재사용되는 Cell들을 xib파일로 묶어 재사용
   2. PFQueryTableViewController가 쓰이는 곳들의 dataSource를 하나의 객체로 만들어 각각의 인스턴스로 관리
   3. 동영상의 썸네일을 누를 시 전체화면으로 가도록 구현
