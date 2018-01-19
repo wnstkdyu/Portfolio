@@ -14,7 +14,7 @@
   - 고려대 iOS 겨울방학 특강(교육기관: 고려대학교 SW중심대학)
   - 교육내용: iOS 기초, Swift 기초, 앱 개발 프로토타이핑, 프로젝트
 - 2017.07 ~ 2017.08
-  - Boostcamp iOS 교육(교육기관: 네이버 커넥트재단)
+  - BoostCamp iOS 교육(교육기관: 네이버 커넥트재단)
   - 교육내용: iOS Programming Guide, The Swift Programming Guide, HIG, 아론 힐리가스의 iOS 프로그래밍, 모둠/개인 과제, 프로젝트
 
 ### 보유 기술
@@ -56,12 +56,18 @@
 - 주요 기술: Parse, AVAsset, CALayer
 - 수행 역할: 개발
 - 구체적 기능 구현
-  1. 재사용되는 Cell들을 xib파일로 묶어 재사용
-  2. PFQueryTableViewController가 쓰이는 곳들의 dataSource를 하나의 객체로 만들어 각각의 인스턴스로 관리
-  3. 동영상의 썸네일을 누를 시 전체화면으로 가도록 구현
-  4. 좋아요 화면을 누를 시 느리게 받아오는 문제를 cellDelegate 메소드인 willDisplay 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
-  5. 온-오프라인을 고려하여 온, 오프라인 관계없이 UserDefaults를 이용해 로컬에 저장했다가 서버에 업로드 시 싱크를 맞춰줌.
-  6. 둘러보기를 구현하여 로그인을 하지 않아도 편집을 할 수 있게끔 구현
+  1. 재사용되는 코드를 묶어서 관리
+    - 공통적으로 쓰이는 Cell들을 Xib파일로 묶어 손쉽게 관리
+    - PushNotification, BlockUsers 등 공통적으로 쓰이는 요소를 하나의 싱글턴 객체로 관리
+    - PFQueryTableViewController가 쓰이는 곳들의 dataSource를 하나의 객체로 만들어 각각의 인스턴스로 관리
+  2. 동영상의 썸네일을 누를 시 전체화면으로 가도록 구현
+  3. 좋아요 갯수를 표시하는 화면에서 느리게 받아오는 문제를 UITableViewDelegate 메소드인 willDisplay 안에서 쿼리를 미리 날려 게시물 별 좋아요를 미리 받게끔 수정
+  4. 온/오프라인, 로그인/둘러보기 관계없이 BlockUsers 싱글턴 객체로 UserDefaults를 이용해 로컬에 저장했다가 서버에 업로드 시 싱크를 맞춰줌.
+  5. 둘러보기를 구현하여 로그인을 하지 않아도 편집을 할 수 있게끔 구현
+  6. UIStackView에 View를 넣었다 빼는 애니메이션 적용
+  7. AppAuth 라이브러리를 사용해 구글로 OAuth 적용 후 YouTube 업로드 기능 추가
+  8. 로컬라이징
+  9. AutoLayout 적용
 
 - ScreenShots
 
