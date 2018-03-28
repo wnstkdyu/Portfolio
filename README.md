@@ -58,7 +58,8 @@ ___
 ## [Picka - 사진 관리 어플리케이션](https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)
 
 **사진을 모아주고 정리하는 것을 도와주는 어플리케이션**
-[Github 링크](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
+
+[프로젝트 리포지터리](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
 
 ### 사용한 기술
 - `Swift 3` `Xcode 8`
