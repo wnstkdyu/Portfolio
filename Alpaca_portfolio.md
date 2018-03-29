@@ -12,7 +12,6 @@
   - **Swift**: 중고급
   - **Objective-C**: 초급
 - 기타
-  - **UI 구성 능력**: 중급
   - **Github**: 중급
   - **Realm**: 초급
 
