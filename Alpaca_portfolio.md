@@ -53,6 +53,20 @@ ___
 
 ### 주요 프로젝트
 
+## [GestureVideoPlayer - 네이버 핵데이 2018 프로젝트](https://github.com/wnstkdyu/afterHackDay2018)
+18.05.17 ~ 18.05.18 이틀동안 진행한 네이버 핵데이 2018 프로젝트입니다.
+
+### 사용한 기술
+- `Swift 4`, `Xcode 9`
+- `AVFoundation`, `Delegate Pattern`, `Notifcation`, `UIViewPropertyAnimator`, `UserDefaults`
+- `Alamofire`
+
+### 수행 역할
+- RemoteURL로 영상을 받을 때 로컬 URL을 `UserDefaults`에 저장해 다시 다운로드 받지 않도록 구현.
+- Player를 보여주는 부분과 제어하는 부분을 나눔.
+- 각각의 뷰를 관리하는 Manager 클래스를 두어 컨트롤러가 Manager와 소통.
+- 제스처를 이용한 플레이어 제어
+
 ## [Picka - 사진 관리 어플리케이션](https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)
 
 **사진을 모아주고 정리하는 것을 도와주는 어플리케이션**
@@ -60,11 +74,10 @@ ___
 [프로젝트 리포지터리](https://github.com/RodoPacaGiraffe/BoostCamp_iOS_Electo)
 
 ### 사용한 기술
-- `Swift 3` `Xcode 8`
-- `Photos` `Image Caching` `Animation` `Localization` `Delegate pattern` `Notification` `Observer`
+- `Swift 3`, `Xcode 8`
+- `Photos`, `Image Caching`, `Animation`, `Localization`, `Delegate pattern`, `Notification`, `Observer`
 
 ### 수행 역할
-
 - `Auto Layout`과 `Interface Builder`를 통한 UI 구현.
 - `UITableView` 사진 이미지 비동기적으로 받아와 나타내기.
 - `CLGeocoder`를 통한 사진의 위치 표시.
@@ -103,8 +116,9 @@ ___
 **일상을 전달하는 Vlog 소셜 네트워크**
 
 ### 사용한 기술
-  - `Objective-C` `Swift` `Xcode 9`
-  - `Parse` `CALayer` `CoreLocation` `Delegate Pattern` `Notification` `Observer` `Singleton Pattern`
+- `Objective-C`, `Swift`, `Xcode 9`
+- `CALayer`, `CoreLocation`, `Delegate Pattern`, `Notification`, `Observer`, `Singleton Pattern`
+- `Parse` 
 
 ### 수행 역할
 - 재사용되는 코드를 묶어서 관리
