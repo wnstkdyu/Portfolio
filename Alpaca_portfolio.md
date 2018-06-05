@@ -46,6 +46,7 @@
   - HIG
   - 아론 힐리가스의 iOS 프로그래밍
   - 모둠/개인 과제를 통한 iOS 심화 과정
+  - Git 심화
   - 팀 프로젝트([Picka - 사진 관리 어플리케이션]((https://itunes.apple.com/kr/app/picka-%EC%82%AC%EC%A7%84-%EA%B4%80%EB%A6%AC/id1274880048?mt=8)))
 - [Boostcamp 리포지터리](https://github.com/wnstkdyu/boostcamp_iOS_Alpaca)
 
