@@ -1,6 +1,7 @@
 # 유준상
 
 - **2019년 2월 졸업 예정**입니다.
+- 테스트
 
 ### 개인정보
 - [Github](https://github.com/wnstkdyu)
