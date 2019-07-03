@@ -1,7 +1,5 @@
 # 유준상
 
-- **2019년 2월 졸업 예정**입니다.
-
 ### 개인정보
 - [Github](https://github.com/wnstkdyu)
 - [Blog](https://wnstkdyu.github.io)
@@ -12,6 +10,10 @@
   - **Swift**: 중고급
 - 기타
   - **Github**: 중급
+
+### 경력
+
+- 네이버 웹툰: 2019.01 ~
 
 ### 학력
 
